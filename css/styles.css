@@ -1,0 +1,839 @@
+header .container-md .row {
+  display: flex;
+  align-items: center;
+}
+header .container-md .row ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  color: #fff;
+}
+header .container-md .row .col-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .container-md .row .col-3 .dashboard {
+  min-width: 100px;
+  min-height: 50px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px 16px 16px 16px;
+  background: linear-gradient(-49.76deg, rgba(83, 95, 230, 0.84) 29.55%, rgba(32, 193, 207, 0.57) 93.116%);
+  text-align: center;
+}
+header .container-md .row .col-3 .logout {
+  min-width: 100px;
+  min-height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  padding: 12px 24px;
+  background: none;
+}
+header .container-md .row-items {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+header .container-md .row-items .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header .container-md .row-items .col-12 .deposit-button {
+  min-width: 131px;
+  min-height: 50px;
+  background-color: #23252F;
+  border: 0;
+  border-radius: 20px;
+}
+header .container-md .row-items .col-12 .new-deposit-button {
+  min-width: 183px;
+  min-height: 52px;
+  padding: 12px, 16px, 12px, 16px;
+  border-radius: 20px;
+  border: 1px;
+  gap: 10px;
+  color: #535FE6;
+}
+header .container-fluid {
+  background: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+}
+
+.container-md .main-row {
+  margin-top: 60px;
+}
+.container-md .main-row .col-6 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container-md .main-row .col-6 .text-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: #5E647A;
+}
+.container-md .main-row .col-6 .text-flex h1 {
+  color: #fff;
+}
+.container-md .row-two {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.container-md .row-two .col-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-md .row-three {
+  background-color: #23252F;
+  max-width: 807px;
+  min-height: 64px;
+  border-radius: 20px;
+}
+.container-md .row-three .col-8 {
+  min-width: 807px;
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+.container-md .row-four .col-8 form {
+  margin-top: 30px;
+  padding: 30px;
+  min-width: 808px;
+  min-height: 119px;
+  border-radius: 20px;
+  border: 1px solid;
+  border: linear-gradient(138.45deg, #535FE6 2.35%, rgba(32, 193, 207, 0.33) 49.19%, rgba(83, 95, 230, 0.34) 91.6%);
+}
+.container-md .row-four .col-8 form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.container-md .row-four .col-8 form .checkbox .progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 197px;
+}
+.container-md .row-four .col-8 form .checkbox .progress-item .progress {
+  min-width: 197px;
+  max-height: 8px;
+  border-radius: 100px;
+}
+.container-md .row-four .col-8 form .checkbox .progress-item .percent {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.container-md .row-four .col-8 form .checkbox .progress-item .daily {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container-md .row-four .col-8 form .checkbox .status {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.container-md .row-four .col-8 form .checkbox .status div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-four .col-8 form .checkbox .status div .usd {
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.container-md .row-four .col-8 form .checkbox .status div .plus {
+  color: #20C1CF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.container-md .row-four .col-8 form .checkbox .status .start-text {
+  color: #5E647A;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-four .col-8 form .checkbox .status .start-text .first-word {
+  color: #fff;
+}
+.container-md .row-four .col-8 form .checkbox .number {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-four .col-8 form .checkbox .number .ten-mill {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.container-md .row-four .col-8 form .checkbox .number .end-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-four .col-8 form .checkbox .number .end-text .first-word {
+  color: #fff;
+}
+.container-md .row-four .col-8 form .checkbox .checkanddecor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-md .row-four .col-8 form .checkbox .checkanddecor .check {
+  min-width: 24px;
+  min-height: 24px;
+}
+.container-md .row-five .col-8 form {
+  margin-top: 30px;
+  padding: 30px;
+  min-width: 808px;
+  min-height: 119px;
+  border-radius: 20px;
+  border: 1px solid;
+  border: linear-gradient(138.45deg, #535FE6 2.35%, rgba(32, 193, 207, 0.33) 49.19%, rgba(83, 95, 230, 0.34) 91.6%);
+}
+.container-md .row-five .col-8 form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.container-md .row-five .col-8 form .checkbox .progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 197px;
+}
+.container-md .row-five .col-8 form .checkbox .progress-item .progress {
+  min-width: 197px;
+  max-height: 8px;
+  border-radius: 100px;
+}
+.container-md .row-five .col-8 form .checkbox .progress-item .percent {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.container-md .row-five .col-8 form .checkbox .progress-item .daily {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container-md .row-five .col-8 form .checkbox .status {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.container-md .row-five .col-8 form .checkbox .status div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-five .col-8 form .checkbox .status div .usd {
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.container-md .row-five .col-8 form .checkbox .status div .plus {
+  color: #20C1CF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.container-md .row-five .col-8 form .checkbox .status .start-text {
+  color: #5E647A;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-five .col-8 form .checkbox .status .start-text .first-word {
+  color: #fff;
+}
+.container-md .row-five .col-8 form .checkbox .number {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-five .col-8 form .checkbox .number .ten-mill {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.container-md .row-five .col-8 form .checkbox .number .end-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-five .col-8 form .checkbox .number .end-text .first-word {
+  color: #fff;
+}
+.container-md .row-five .col-8 form .checkbox .checkanddecor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-md .row-five .col-8 form .checkbox .checkanddecor .check {
+  min-width: 24px;
+  min-height: 24px;
+}
+.container-md .row-six .col-8 form {
+  margin-top: 30px;
+  padding: 30px;
+  min-width: 808px;
+  min-height: 119px;
+  border-radius: 20px;
+  border: 1px solid;
+  border: linear-gradient(138.45deg, #535FE6 2.35%, rgba(32, 193, 207, 0.33) 49.19%, rgba(83, 95, 230, 0.34) 91.6%);
+}
+.container-md .row-six .col-8 form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.container-md .row-six .col-8 form .checkbox .progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 197px;
+}
+.container-md .row-six .col-8 form .checkbox .progress-item .progress {
+  min-width: 197px;
+  max-height: 8px;
+  border-radius: 100px;
+}
+.container-md .row-six .col-8 form .checkbox .progress-item .percent {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.container-md .row-six .col-8 form .checkbox .progress-item .daily {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container-md .row-six .col-8 form .checkbox .status {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.container-md .row-six .col-8 form .checkbox .status div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-six .col-8 form .checkbox .status div .usd {
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.container-md .row-six .col-8 form .checkbox .status div .plus {
+  color: #20C1CF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.container-md .row-six .col-8 form .checkbox .status .start-text {
+  color: #5E647A;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-six .col-8 form .checkbox .status .start-text .first-word {
+  color: #fff;
+}
+.container-md .row-six .col-8 form .checkbox .number {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-six .col-8 form .checkbox .number .ten-mill {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.container-md .row-six .col-8 form .checkbox .number .end-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-six .col-8 form .checkbox .number .end-text .first-word {
+  color: #fff;
+}
+.container-md .row-six .col-8 form .checkbox .checkanddecor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-md .row-six .col-8 form .checkbox .checkanddecor .check {
+  min-width: 24px;
+  min-height: 24px;
+}
+.container-md .row-seven .col-8 form {
+  margin-top: 30px;
+  padding: 30px;
+  min-width: 808px;
+  min-height: 119px;
+  border-radius: 20px;
+  border: 1px solid;
+  border: linear-gradient(138.45deg, #535FE6 2.35%, rgba(32, 193, 207, 0.33) 49.19%, rgba(83, 95, 230, 0.34) 91.6%);
+}
+.container-md .row-seven .col-8 form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.container-md .row-seven .col-8 form .checkbox .progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 197px;
+}
+.container-md .row-seven .col-8 form .checkbox .progress-item .progress {
+  min-width: 197px;
+  max-height: 8px;
+  border-radius: 100px;
+}
+.container-md .row-seven .col-8 form .checkbox .progress-item .percent {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.container-md .row-seven .col-8 form .checkbox .progress-item .daily {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container-md .row-seven .col-8 form .checkbox .status {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.container-md .row-seven .col-8 form .checkbox .status div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-seven .col-8 form .checkbox .status div .usd {
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.container-md .row-seven .col-8 form .checkbox .status div .plus {
+  color: #20C1CF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.container-md .row-seven .col-8 form .checkbox .status .start-text {
+  color: #5E647A;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-seven .col-8 form .checkbox .status .start-text .first-word {
+  color: #fff;
+}
+.container-md .row-seven .col-8 form .checkbox .number {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-seven .col-8 form .checkbox .number .ten-mill {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.container-md .row-seven .col-8 form .checkbox .number .end-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-seven .col-8 form .checkbox .number .end-text .first-word {
+  color: #fff;
+}
+.container-md .row-seven .col-8 form .checkbox .checkanddecor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-md .row-seven .col-8 form .checkbox .checkanddecor .check {
+  min-width: 24px;
+  min-height: 24px;
+}
+.container-md .row-eight .col-8 form {
+  margin-top: 30px;
+  padding: 30px;
+  min-width: 808px;
+  min-height: 119px;
+  border-radius: 20px;
+  border: 1px solid;
+  border: linear-gradient(138.45deg, #535FE6 2.35%, rgba(32, 193, 207, 0.33) 49.19%, rgba(83, 95, 230, 0.34) 91.6%);
+}
+.container-md .row-eight .col-8 form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+.container-md .row-eight .col-8 form .checkbox .progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 197px;
+}
+.container-md .row-eight .col-8 form .checkbox .progress-item .progress {
+  min-width: 197px;
+  max-height: 8px;
+  border-radius: 100px;
+}
+.container-md .row-eight .col-8 form .checkbox .progress-item .percent {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+}
+.container-md .row-eight .col-8 form .checkbox .progress-item .daily {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.container-md .row-eight .col-8 form .checkbox .status {
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.container-md .row-eight .col-8 form .checkbox .status div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-eight .col-8 form .checkbox .status div .usd {
+  background-image: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+.container-md .row-eight .col-8 form .checkbox .status div .plus {
+  color: #20C1CF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.container-md .row-eight .col-8 form .checkbox .status .start-text {
+  color: #5E647A;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-eight .col-8 form .checkbox .status .start-text .first-word {
+  color: #fff;
+}
+.container-md .row-eight .col-8 form .checkbox .number {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.container-md .row-eight .col-8 form .checkbox .number .ten-mill {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.container-md .row-eight .col-8 form .checkbox .number .end-text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #5E647A;
+}
+.container-md .row-eight .col-8 form .checkbox .number .end-text .first-word {
+  color: #fff;
+}
+.container-md .row-eight .col-8 form .checkbox .checkanddecor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-md .row-eight .col-8 form .checkbox .checkanddecor .check {
+  min-width: 24px;
+  min-height: 24px;
+}
+.container-md .row-nine {
+  padding-top: 20px;
+}
+.container-md .row-nine .col-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  color: #5E647A;
+}
+.container-md .row-nine .col-2 .page-active {
+  color: #535FE6;
+}
+.container-md .aside {
+  position: absolute;
+  top: 220px;
+  left: 1500px;
+  color: #fff;
+}
+.container-md .aside__bg-info {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+.container-md .aside__bg-info h2 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 86px;
+  text-align: left;
+}
+.container-md .aside__bg-info span {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: left;
+}
+.container-md .aside__bg-decor {
+  position: absolute;
+  top: 260px;
+  left: 60px;
+}
+.container-md .aside__bg .partner {
+  position: absolute;
+  top: 470px;
+  right: 50px;
+}
+.container-md .aside__bg .bg-text {
+  position: absolute;
+  top: 650px;
+  left: 50px;
+  min-width: 400px;
+}
+.container-md #carouselExampleFade {
+  position: absolute;
+  top: 850px;
+  left: 50px;
+  width: 330px;
+}
+
+footer {
+  background: #23252F;
+  min-height: 387px;
+}
+footer .container-fluid .row-footer .col-12 {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+footer .container-md .row-footer-content {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container-md .row-footer-content .col-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #fff;
+}
+footer .container-md .row-footer-content .col-3__flex {
+  display: flex;
+  gap: 20px;
+}
+footer .container-md .row-footer-content .col-3__flex-text {
+  color: #535FE6;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+footer .container-md .row-footer-content .col-3-list {
+  display: flex;
+  align-items: center;
+  color: #5E647A;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+footer .container-md .row-footer-content .col-2 button {
+  min-width: 196px;
+  min-height: 50px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 20px;
+  border: 1px solid #535FE6;
+  background-color: transparent;
+  color: rgba(83, 95, 230, 0.84);
+}
+footer .container-md .row-media {
+  padding-top: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+footer .container-md .row-media .col-2-img {
+  display: flex;
+  gap: 10px;
+}
+footer .container-md .row-media .col-3-rights {
+  min-width: 370px;
+}
+footer .container-md .row-media .col-2-flex {
+  min-width: 350px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1b1b;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+@import '../scss/_header';
+@import '../scss/_main';
+@import '../scss/_footer';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #1c1b1bff;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,94 @@
+header { 
+    .container-md {
+
+        .row {
+
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+                gap: 10px;
+                justify-content: space-between;
+                color: #fff;
+            }
+
+            .col-1 {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .col-3 {
+                .dashboard {
+                    min-width: 100px;
+                    min-height: 50px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #fff;
+                    padding: 12px 24px;
+                    border-radius: 30px 16px 16px 16px;
+                    background: linear-gradient(-49.76deg, rgba(83, 95, 230, 0.84) 29.55%, rgba(32, 193, 207, 0.57) 93.116%);
+                    text-align: center;
+                }
+
+                .logout {
+                    min-width: 100px;
+                    min-height: 50px;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 26px;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    border-radius: 16px;
+                    padding: 12px 24px;
+                    background: none;
+                }
+            }
+        }
+
+
+        .row-items {
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+
+
+            .col-12 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                .deposit-button {
+                    min-width: 131px;
+                    min-height: 50px;
+                    background-color: #23252F;
+                    border: 0;
+                    border-radius: 20px;
+                }
+
+                .new-deposit-button {
+                    min-width: 183px;
+                    min-height: 52px;
+                    padding: 12px, 16px, 12px, 16px;
+                    border-radius: 20px;
+                    border: 1px;
+                    gap: 10px;
+                    color: #535FE6;
+
+                }
+            }
+        }
+    }
+
+    .container-fluid { 
+        background: linear-gradient(324.25deg, rgba(83, 95, 230, 0.84) 30.14%, rgba(32, 193, 207, 0.57) 89.37%);
+    }
+}
+ 
